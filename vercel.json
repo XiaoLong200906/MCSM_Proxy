@@ -1,0 +1,21 @@
+{
+    "builds": [
+        {
+        "src": "/**/*",
+        "use": "@vercel/static"
+        }
+    ],
+    "rewrites": [
+        {
+            "source": "/:match*",
+            "destination": "https://xiaolonglongshangmcsmanagerpanel20231220serverpanel.longshen2009.repl.co//:match*"
+        },
+        {
+            "source": "/:match*/",
+            "destination": "https://xiaolonglongshangmcsmanagerpanel20231220serverpanel.longshen2009.repl.co//:match*/"
+        }
+    ],
+    "github": {
+        "silent": true
+    }
+}
